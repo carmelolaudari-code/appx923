@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bateria Suite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.19.3/dist/xlsx.full.min.js"></script>
+  <style>
+    body{font-family:Inter,system-ui;margin:0;color:#111}
+    /* ... rest of styles same as before ... */
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    // Supabase init
+    const SUPABASE_URL = "https://eauzqljvfbleavkrzouq.supabase.co";
+    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVhdXpxbGp2ZmJsZWF2a3J6b3VxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwNzQ1NTgsImV4cCI6MjA3MzY1MDU1OH0.iKyMJ3NUHwDBG4hhdrdHyrX-Of3IT_INuN3nBcocSpY";
+    const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    let CURRENT_UID = null;
+
+    /* ==== AQUI VAI TODO O CÓDIGO DO APP COMPLETO ====
+       (o mesmo que montei no build anterior com Login, Signup,
+       Ritmistas, Ensaios, Presenças, Backup e Import Excel/CSV) */
+
+  </script>
+</body>
+</html>
